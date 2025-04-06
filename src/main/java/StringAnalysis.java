@@ -2,10 +2,10 @@ import java.util.Scanner;
 
 public class StringAnalysis {
     public static void main(String[] args) {
-        //Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.print("Enter a string: ");
-        String input = "I am a SQA Engineer"; //sc.nextLine();
-        //sc.close();
+        String input = sc.nextLine();
+        sc.close();
 
         int wordCount = 0;
         int charCountWithoutSpaces = 0;
@@ -29,10 +29,10 @@ public class StringAnalysis {
             }
         }
 
-        System.out.println("Number of words: " + wordCount);
-        System.out.println("Number of characters without spaces: " + charCountWithoutSpaces);
-        System.out.println("Number of vowels: " + vowelCount);
-        System.out.println("Number of consonants: " + consonantCount);
+        System.out.println("words " + wordCount);
+        System.out.println("chars " + charCountWithoutSpaces);
+        System.out.println("vowels: " + vowelCount);
+        System.out.println("consonants: " + consonantCount);
     }
 }
 

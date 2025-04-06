@@ -8,11 +8,8 @@ public class LowestHeights {
         for (int i = 0; i < heights.length; i++) {
             heights[i] = sc.nextDouble();
         }
-
         sc.close();
-
-
-        double lowest = Double.MAX_VALUE;
+    double lowest = Double.MAX_VALUE;
         double secondLowest = Double.MAX_VALUE;
 
         for (int i = 0; i < heights.length; i++) {

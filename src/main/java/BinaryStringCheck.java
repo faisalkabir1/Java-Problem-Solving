@@ -6,9 +6,7 @@ public class BinaryStringCheck {
         System.out.print("Enter a string: ");
         String input = sc.nextLine();
         sc.close();
-
         boolean isBinary = true;
-
         for (int i = 0; i < input.length(); i++) {
             char c = input.charAt(i);
             if (c != '0' && c != '1') {

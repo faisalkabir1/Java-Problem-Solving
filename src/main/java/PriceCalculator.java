@@ -16,7 +16,7 @@ public class PriceCalculator {
         double finalPrice = totalPrice - discount;
 
         System.out.println("Laptop Price: " + laptopPrice + " tk");
-        System.out.println("Mouse Price x " + quantity + ": " + (mousePrice * quantity) + " tk");
+        System.out.println("Mouse Price:" + (mousePrice * quantity) + " tk");
         //System.out.println("Total (before discount): " + totalPrice + " tk");
        // System.out.println("Discount (" + discountPercent + "%): " + discount + " tk");
         System.out.println("Total Cost: " + finalPrice + " tk");

@@ -5,7 +5,7 @@ public class SortCGPA {
 
         for (int i = 0; i < cgpas.length - 1; i++) {
             for (int j = i + 1; j < cgpas.length; j++) {
-                if (cgpas[i] > cgpas[j]) {
+                if (cgpas[i] < cgpas[j]) {
                     double temp = cgpas[i];
                     cgpas[i]=cgpas[j];
                     cgpas[j]=temp;
